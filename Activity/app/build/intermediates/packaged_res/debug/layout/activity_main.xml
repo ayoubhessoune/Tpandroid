@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText_hint"
+            android:inputType="text"
+            android:autofillHints="username"/>
+
+        <Button
+            android:id="@+id/btnWhatEdited"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText"
+            android:text="@string/quoi"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnSelfSubActivite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnWhatEdited"
+            android:text="@string/start"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnGotoGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnSelfSubActivite"
+            android:text="@string/google"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnCallUrgence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnGotoGoogle"
+            android:text="@string/urgence"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnWifiSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnCallUrgence"
+            android:text="@string/wifi"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnAppSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnWifiSetting"
+            android:text="@string/settings"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnPlanifActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnAppSetting"
+            android:text="@string/planned"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/btnTpforward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnPlanifActivity"
+            android:text="@string/forward"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

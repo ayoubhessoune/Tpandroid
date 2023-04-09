@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="hello_world">Bonjour les activités!</string>
+    <string name="editText_hint">Entrez un texte ici</string>
+    <string name="quoi">Quoi?</string>
+    <string name="start">Lancer sous activité par la même classe</string>
+    <string name="google">www.google.com</string>
+    <string name="urgence">Appel urgence</string>
+    <string name="wifi">Paramètres wifi</string>
+    <string name="settings">Paramètres des applications</string>
+    <string name="planned">Activités planifiées</string>
+    <string name="hello_sub_activity">Bonjour activités planifiées!</string>
+    <string name="diff_intent">diffusion via Intent</string>
+    <string name="dyn">Activité planifiée (reception dynamique)</string>
+    <string name="stat">Activité planifiée (reception statique)</string>
+    <string name="go">Go to Layout choice Activity</string>
+    <string name="forward">Go to TP2 Activity</string>
+    <string name="Ciseaux">Ciseaux</string>
+    <string name="check">Cette case est : decochee</string>
+    <string name="Papier">Papier</string>
+    <string name="Caillou">Caillou</string>
+
+
+</resources>

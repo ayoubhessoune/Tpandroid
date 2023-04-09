@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FF0000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Caillou">Caillou</string>
+    <string name="Ciseaux">Ciseaux</string>
+    <string name="Papier">Papier</string>
+    <string name="app_name">Activity</string>
+    <string name="check">Cette case est : decochee</string>
+    <string name="diff_intent">diffusion via Intent</string>
+    <string name="dyn">Activité planifiée (reception dynamique)</string>
+    <string name="editText_hint">Entrez un texte ici</string>
+    <string name="forward">Go to TP2 Activity</string>
+    <string name="go">Go to Layout choice Activity</string>
+    <string name="google">www.google.com</string>
+    <string name="hello_sub_activity">Bonjour activités planifiées!</string>
+    <string name="hello_world">Bonjour les activités!</string>
+    <string name="planned">Activités planifiées</string>
+    <string name="quoi">Quoi?</string>
+    <string name="settings">Paramètres des applications</string>
+    <string name="start">Lancer sous activité par la même classe</string>
+    <string name="stat">Activité planifiée (reception statique)</string>
+    <string name="urgence">Appel urgence</string>
+    <string name="wifi">Paramètres wifi</string>
+    <style name="Theme.Activity" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

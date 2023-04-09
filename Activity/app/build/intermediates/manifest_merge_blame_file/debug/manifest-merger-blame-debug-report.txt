@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.activity"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+11-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:5:5-76
+11-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:6:5-69
+12-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:6:22-66
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\Ayoub\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.activity.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\Ayoub\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\Ayoub\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.activity.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\Ayoub\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\Ayoub\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:8:5-44:19
+21        android:allowBackup="true"
+21-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\Ayoub\.gradle\caches\transforms-3\24c8031572ced1a9ec505ef2513af626\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:13:9-41
+29        android:supportsRtl="true"
+29-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.Activity" >
+31-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:15:9-46
+32        <activity
+32-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:17:9-19:39
+33            android:name="com.example.activity.Home"
+33-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:18:13-33
+34            android:exported="true" />
+34-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:19:13-36
+35        <activity
+35-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:20:9-22:40
+36            android:name="com.example.activity.PlanifiedActivities"
+36-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:21:13-48
+37            android:exported="false" />
+37-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:22:13-37
+38        <activity
+38-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:23:9-31:20
+39            android:name="com.example.activity.MainActivity"
+39-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:24:13-41
+40            android:exported="true" >
+40-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:25:13-36
+41            <intent-filter>
+41-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:26:13-30:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:27:17-69
+42-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:27:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:29:17-77
+44-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:29:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:32:9-33:39
+48            android:name="com.example.activity.Linearchoice"
+48-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:32:19-46
+49            android:exported="false" />
+49-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:33:13-37
+50
+51        <receiver
+51-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:35:9-43:20
+52            android:name="com.example.activity.Receiver"
+52-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:36:13-37
+53            android:exported="true" >
+53-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:37:13-36
+54            <intent-filter>
+54-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:38:13-42:29
+55                <action android:name="ACTION_ALARM_FILTRED" />
+55-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:39:17-63
+55-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:39:25-60
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:41:17-76
+57-->C:\Users\Ayoub\AndroidStudioProjects\Activity\app\src\main\AndroidManifest.xml:41:27-73
+58            </intent-filter>
+59        </receiver>
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayoub\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayoub\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+63            android:authorities="com.example.activity.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayoub\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayoub\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayoub\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayoub\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayoub\.gradle\caches\transforms-3\ae62b2ed57c08e4ce03649c04da30a3c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ayoub\.gradle\caches\transforms-3\2882a1b6f8a4e98c7a1903336c452fc8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ayoub\.gradle\caches\transforms-3\2882a1b6f8a4e98c7a1903336c452fc8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ayoub\.gradle\caches\transforms-3\2882a1b6f8a4e98c7a1903336c452fc8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>

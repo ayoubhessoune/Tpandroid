@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlanifiedActivities">
+    <TextView
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_sub_activity" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnBroadcastViaIntent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/diff_intent"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnDynamicBroadcastRecViaAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnBroadcastViaIntent"
+            android:text="@string/dyn"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnXMLStaticBroadcastRecViaAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnDynamicBroadcastRecViaAlarm"
+            android:text="@string/stat"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
